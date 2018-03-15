@@ -1,3 +1,24 @@
+# How this app was created
+## Install Angular
+~~~
+npm install @angular/cli@latest -g
+~~~
+### Update TypeScript
+> Note: the following was necessary to get the Angular installer to work. In future this may not be necessary.  
+~~~
+npm install --save-dev typescript@2.6.2
+~~~
+## Compile Angular and check that it works
+~~~
+ng serve
+~~~
+Visit [http:localhost:4200](http:localhost:4200)
+## Install Express and Body Parser
+~~~
+npm install express body-parser --save
+~~~
+## Add the server.js file
+
 # SimplestAngularNodejsServer
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
