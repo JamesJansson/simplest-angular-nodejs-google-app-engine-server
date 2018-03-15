@@ -6,7 +6,8 @@ const http = require('http');
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.set('port', process.env.PORT || '3000');
+const port = process.env.PORT || '3000';
+app.set('port', port);
 
 const server = http.createServer(app);
 
