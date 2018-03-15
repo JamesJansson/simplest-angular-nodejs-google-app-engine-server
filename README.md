@@ -1,3 +1,19 @@
+# Instructions for running this server locally
+1) Install [NodeJS](https://nodejs.org/)
+2) Install AngularCLI
+~~~
+npm install @angular/cli@latest -g
+~~~
+3) Download or clone this repository
+4) Open the NodeJS Terminal. Run `npm install` to add the needed ExpressJS files into the node_modules folder
+5) Run 
+~~~
+ng build
+~~~
+to comilar the Angular front-end components into the `dist` folder
+5) Run `node server.js`
+6) Open [localhost:3000](http://localhost:3000/) in your browser. You should see a basic Angular app displayed. You are now running a local server. 
+
 # How this app was created
 ## Install Angular
 ~~~
