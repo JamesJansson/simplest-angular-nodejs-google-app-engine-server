@@ -10,7 +10,7 @@ npm install @angular/cli@latest -g
 ~~~
 ng build
 ~~~
-to comilar the Angular front-end components into the `dist` folder
+to compile the Angular front-end components into the `dist` folder
 5) Run `node server.js`
 6) Open [localhost:3000](http://localhost:3000/) in your browser. You should see a basic Angular app displayed. You are now running a local server. 
 
