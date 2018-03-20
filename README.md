@@ -114,7 +114,7 @@ npm install express body-parser --save
 
 
 
-# NOTE: the below information was created as part of the ng
+# NOTE: the below information was created as part of the 'ng build' process 
 
 # SimplestAngularNodejsServer
 
