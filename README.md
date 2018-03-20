@@ -26,14 +26,16 @@ After doing the above:
 8) [Set up Google Cloud Platform](https://cloud.google.com/)
 
 9) Create a new project
-![Create a project](/tutorial/img/gcp12.png)
+
+![Create a project](/readme/img/gcp12.png)
 
 10) Name the project
 
-![Name the project](/tutorial/img/gcp3.png)
+![Name the project](/readme/img/gcp3.png)
 
 11) Make sure the project is selected
-![Select the project](/tutorial/img/gcp4.png)
+
+![Select the project](/readme/img/gcp4.png)
 
 12) Install the [Google Cloud SDK](https://cloud.google.com/sdk/)
 
