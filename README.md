@@ -39,11 +39,11 @@ After doing the above:
 
 12) Install the [Google Cloud SDK](https://cloud.google.com/sdk/)
 
-13) Run the following command 
+13) Run the following command and create a new configuration. It can have any name. 
 ~~~
 gcloud init
 ~~~
-Create a new configuration. It can have any name. 
+
 
 14) Log in to your Google account.
 
