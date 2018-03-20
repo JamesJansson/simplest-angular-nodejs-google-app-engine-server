@@ -13,7 +13,11 @@ npm install -g nodemon
 
 4) Download or clone this repository
 
-5) Open the NodeJS Terminal. Run `npm install` to add the needed ExpressJS files into the node_modules folder
+5) Open the NodeJS Terminal. Run 
+~~~
+npm install
+~~~
+ to add the needed files into the node_modules folder
 
 6) Run 
 ~~~
@@ -21,7 +25,11 @@ ng build
 ~~~
 to compile the Angular front-end components into the `dist` folder
 
-7) Run `node server.js`
+7) Run 
+
+~~~
+node server.js
+~~~
 
 **NOTE: You can also run the following command to have the Angular built and server restarted when code changes**
 ~~~
