@@ -1,58 +1,64 @@
 # Instructions for running this server locally
 1) Install [NodeJS](https://nodejs.org/)
+
 2) Install AngularCLI
 ~~~
 npm install @angular/cli@latest -g
 ~~~
+
 3) Download or clone this repository
+
 4) Open the NodeJS Terminal. Run `npm install` to add the needed ExpressJS files into the node_modules folder
+
 5) Run 
 ~~~
 ng build
 ~~~
 to compile the Angular front-end components into the `dist` folder
-5) Run `node server.js`
-6) Open [localhost:3000](http://localhost:3000/) in your browser. You should see a basic Angular app displayed. You are now running a local server. 
+
+6) Run `node server.js`
+
+7) Open [localhost:3000](http://localhost:3000/) in your browser. You should see a basic Angular app displayed. You are now running a local server. 
 
 # Instructions for running this server on Google App Engine
 After doing the above:
 
-7) [Set up Google Cloud Platform](https://cloud.google.com/)
+8) [Set up Google Cloud Platform](https://cloud.google.com/)
 
-8) Create a new project
+9) Create a new project
 ![Create a project](/tutorial/img/gcp12.png)
 
-9) Name the project
+10) Name the project
 
 ![Name the project](/tutorial/img/gcp3.png)
 
-10) Make sure the project is selected
+11) Make sure the project is selected
 ![Select the project](/tutorial/img/gcp4.png)
 
-11) Install the [Google Cloud SDK](https://cloud.google.com/sdk/)
+12) Install the [Google Cloud SDK](https://cloud.google.com/sdk/)
 
-12) Run the following command 
+13) Run the following command 
 ~~~
 gcloud init
 ~~~
 Create a new configuration. It can have any name. 
 
-13) Log in to your Google account.
+14) Log in to your Google account.
 
-14) Select the project that you create above.
+15) Select the project that you create above.
 
-15) Select the region
+16) Select the region
 
-16) Choose a region that the server will be hosted in
+17) Choose a region that the server will be hosted in
 
-17) Run the following command
+18) Run the following command
 ~~~
 gcloud app deploy
 ~~~
 
-18) Wait for the app to deploy. 
+19) Wait for the app to deploy. 
 
-19) Visit the address that is displayed when the deploy command finishes.
+20) Visit the address that is displayed when the deploy command finishes.
 ~~~
 Deployed service [default] to [https://test-project-197703.appspot.com]
 ~~~
